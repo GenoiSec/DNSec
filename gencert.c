@@ -1,7 +1,10 @@
-/* This utility generates a self-signed X.509 certificate with an embedded
- * DNSSEC chain.
+/* 
+ * DNSec chain.
  *
  * Usage: ./gencert <PEM private key> <DNSSEC chain file> > cert.pem
+ # Usage: C Compiler for execute C ekstention with 'gcc'
+
+# Create by DNSec Team
  */
 
 #include <stdio.h>

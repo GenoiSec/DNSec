@@ -1,11 +1,11 @@
 # This script spits out a TLSA record that can be used to authorize a public key
 # for HTTPS in Chrome. The at moment it's limited to RSA public keys only.
-# TODO(agl): support ECDSA public keys.
-#
+# support ECDSA public keys.
 # It takes the public key and emits a record in a format that BIND understands.
-#
 # Usage: python ./gentlsa.py rsa_public_key.pem
+# Usage: C Compiler for execute C ekstention with 'gcc'
 
+# Create by DNSec Team
 import sys
 import hashlib
 
