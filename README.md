@@ -20,7 +20,7 @@ Example
     $ openssl genrsa 1024 > privkey.pem
     $ openssl rsa -pubout -in privkey.pem > pubkey.pem
     $ python ./gentlsa.py pubkey.pem
-    Resutl Show - > _443._tcp.EXAMPLE.COM. 60 IN TYPE52 \# 35 020461757468303e3039060a2b06010401d67902
+    Result Show -> _443._tcp.EXAMPLE.COM. 60 IN TYPE52 \# 35 020461757468303e3039060a2b06010401d67902
 
 (Put this in your DNS zone, but don't forget to change "EXAMPLE.COM." to match the actual domain name. Once this is done, and the record is public, you can do the next step. You can check the record with `dig -t type52 example.com`.)
 
